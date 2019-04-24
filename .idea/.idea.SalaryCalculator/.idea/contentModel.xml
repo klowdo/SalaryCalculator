@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.11.0/build/netcoreapp1.0/nunit.engine.netstandard.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.11.0/build/netcoreapp1.0/NUnit3.TestAdapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.11.0/build/netcoreapp1.0/NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SalaryCalculator.sln" t="IncludeFlat" />
+      <e p="src" t="Include">
+        <e p="SalaryCalculator.Application" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="IApplicationService.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="SalaryCalculator.Application.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="SalaryCalculator.Application.csproj" t="IncludeRecursive" />
+          <e p="Services" t="Include">
+            <e p="CalculatePaySlipArgs.cs" t="Include" />
+            <e p="ITaxCalculationStrategyRepository.cs" t="Include" />
+            <e p="ITaxCalculatorFactory.cs" t="Include" />
+            <e p="NetIncomeCalculator.cs" t="Include" />
+            <e p="PayslipCalculationService.cs" t="Include" />
+            <e p="PaySlipResult.cs" t="Include" />
+            <e p="TaxCalculator.cs" t="Include" />
+          </e>
+        </e>
+        <e p="SalaryCalculator.ConsoleApp" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Bootstrapper.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="SalaryCalculator.ConsoleApp.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="SalaryCalculator.ConsoleApp.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="SalaryCalculator.Domain" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="CurrencyCode.cs" t="Include" />
+          <e p="Entity.cs" t="Include" />
+          <e p="Model" t="Include">
+            <e p="Employee.cs" t="Include" />
+            <e p="Money.cs" t="Include" />
+            <e p="Name.cs" t="Include" />
+            <e p="Rate.cs" t="Include" />
+            <e p="Salary.cs" t="Include" />
+            <e p="TimeRange.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="SalaryCalculator.Domain.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="SalaryCalculator.Domain.csproj" t="IncludeRecursive" />
+          <e p="Services" t="Include">
+            <e p="SuperAnuationCalculator.cs" t="Include" />
+            <e p="Tax" t="Include">
+              <e p="DefaultTaxCalculationStrategy.cs" t="Include" />
+              <e p="ITaxCalculationStrategy.cs" t="Include" />
+              <e p="NillTaxCalculationStrategy.cs" t="Include" />
+              <e p="TaxCalculator.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="SalaryCalculator.Infrastructure" t="IncludeRecursive">
+          <e p="ApplicationServiceDebugOutputDecorator.cs" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="SalaryCalculator.Infrastructure.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Persitence" t="Include">
+            <e p="TaxCalculationInMemRepo.cs" t="Include" />
+          </e>
+          <e p="Presentation" t="Include">
+            <e p="ConsoleOutput.cs" t="Include" />
+            <e p="ConsolePayslipPrinter.cs" t="Include" />
+            <e p="IConsoleOutput.cs" t="Include" />
+            <e p="IPrintPayslip.cs" t="Include" />
+          </e>
+          <e p="SalaryCalculator.Infrastructure.csproj" t="IncludeRecursive" />
+          <e p="SalaryRange.cs" t="Include" />
+        </e>
+      </e>
+      <e p="test" t="Include">
+        <e p="SalaryCalculator.Application.Test" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="SalaryCalculator.Application.Test.AssemblyInfo.cs" t="Include" />
+                <e p="SalaryCalculator.Application.Test.Program.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="SalaryCalculator.Application.Test.csproj" t="IncludeRecursive" />
+          <e p="Services" t="Include">
+            <e p="NetIncomeCalculatorTest.cs" t="Include" />
+            <e p="PayslipCalculationService_Args_Tests.cs" t="Include" />
+            <e p="PayslipCalculationService_Tests.cs" t="Include" />
+          </e>
+        </e>
+        <e p="SalaryCalculator.ConsoleApp.Test" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="BootstrapperTest.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="SalaryCalculator.ConsoleApp.Test.AssemblyInfo.cs" t="Include" />
+                <e p="SalaryCalculator.ConsoleApp.Test.Program.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="SalaryCalculator.ConsoleApp.Test.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="SalaryCalculator.Domain.Tests" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="DefaultTaxCalculationStrategy.Test.cs" t="Include" />
+          <e p="Employee_Test.cs" t="Include" />
+          <e p="Money.Test.cs" t="Include" />
+          <e p="Name.Test.cs" t="Include" />
+          <e p="NillTaxCalculationStrategy_Test.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="SalaryCalculator.Domain.Tests.AssemblyInfo.cs" t="Include" />
+                <e p="SalaryCalculator.Domain.Tests.Program.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Salary.Test.cs" t="Include" />
+          <e p="SalaryCalculator.Domain.Tests.csproj" t="IncludeRecursive" />
+          <e p="SuperAnnuationCalculator_Test.cs" t="Include" />
+          <e p="TaxRate.Test.cs" t="Include" />
+          <e p="TimeRage_Test.cs" t="Include" />
+        </e>
+        <e p="SalaryCalculator.Infratructure.Test" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="SalaryCalculator.Infratructure.Test.AssemblyInfo.cs" t="Include" />
+                <e p="SalaryCalculator.Infratructure.Test.Program.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="PaySlipPrinter_Test.cs" t="Include" />
+          <e p="SalaryCalculator.Infratructure.Test.csproj" t="IncludeRecursive" />
+          <e p="SalaryRange_Test.cs" t="Include" />
+        </e>
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_SalaryCalculator.1076355192.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+  </component>
+</project>
